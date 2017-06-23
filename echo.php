@@ -7,3 +7,6 @@
 		$cf = new Chatfuel();
 		$cf->sendText($_GET['msg']);
 	}
+	else{
+		echo "Nothing";
+	}
